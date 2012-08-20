@@ -1,20 +1,15 @@
 //
-//  main.m
+//  BinarySearchNode.m
 //  DataStructuresAndAlgorithms
 //
 //  Created by Janusz Chudzynski on 8/20/12.
 //  Copyright (c) 2012 Janusz Chudzynski. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "BinarySearchNode.h"
 
-int main(int argc, const char * argv[])
-{
+@implementation BinarySearchNode
+@synthesize left, right;
+@synthesize data;
 
-    @autoreleasepool {
-        
-        
-    }
-    return 0;
-}
-
+@end
