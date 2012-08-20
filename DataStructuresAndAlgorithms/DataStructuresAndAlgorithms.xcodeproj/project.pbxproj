@@ -1,0 +1,239 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F94A13515E2BC2800ECA24C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F94A13415E2BC2800ECA24C /* Foundation.framework */; };
+		4F94A13815E2BC2800ECA24C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F94A13715E2BC2800ECA24C /* main.m */; };
+		4F94A13C15E2BC2800ECA24C /* DataStructuresAndAlgorithms.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4F94A13B15E2BC2800ECA24C /* DataStructuresAndAlgorithms.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4F94A12E15E2BC2800ECA24C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				4F94A13C15E2BC2800ECA24C /* DataStructuresAndAlgorithms.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4F94A13015E2BC2800ECA24C /* DataStructuresAndAlgorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructuresAndAlgorithms; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F94A13415E2BC2800ECA24C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4F94A13715E2BC2800ECA24C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F94A13A15E2BC2800ECA24C /* DataStructuresAndAlgorithms-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DataStructuresAndAlgorithms-Prefix.pch"; sourceTree = "<group>"; };
+		4F94A13B15E2BC2800ECA24C /* DataStructuresAndAlgorithms.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = DataStructuresAndAlgorithms.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F94A12D15E2BC2800ECA24C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F94A13515E2BC2800ECA24C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F94A12515E2BC2800ECA24C = {
+			isa = PBXGroup;
+			children = (
+				4F94A13615E2BC2800ECA24C /* DataStructuresAndAlgorithms */,
+				4F94A13315E2BC2800ECA24C /* Frameworks */,
+				4F94A13115E2BC2800ECA24C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F94A13115E2BC2800ECA24C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F94A13015E2BC2800ECA24C /* DataStructuresAndAlgorithms */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F94A13315E2BC2800ECA24C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F94A13415E2BC2800ECA24C /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F94A13615E2BC2800ECA24C /* DataStructuresAndAlgorithms */ = {
+			isa = PBXGroup;
+			children = (
+				4F94A13715E2BC2800ECA24C /* main.m */,
+				4F94A13B15E2BC2800ECA24C /* DataStructuresAndAlgorithms.1 */,
+				4F94A13915E2BC2800ECA24C /* Supporting Files */,
+			);
+			path = DataStructuresAndAlgorithms;
+			sourceTree = "<group>";
+		};
+		4F94A13915E2BC2800ECA24C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F94A13A15E2BC2800ECA24C /* DataStructuresAndAlgorithms-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F94A12F15E2BC2800ECA24C /* DataStructuresAndAlgorithms */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F94A13F15E2BC2800ECA24C /* Build configuration list for PBXNativeTarget "DataStructuresAndAlgorithms" */;
+			buildPhases = (
+				4F94A12C15E2BC2800ECA24C /* Sources */,
+				4F94A12D15E2BC2800ECA24C /* Frameworks */,
+				4F94A12E15E2BC2800ECA24C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DataStructuresAndAlgorithms;
+			productName = DataStructuresAndAlgorithms;
+			productReference = 4F94A13015E2BC2800ECA24C /* DataStructuresAndAlgorithms */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F94A12715E2BC2800ECA24C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Janusz Chudzynski";
+			};
+			buildConfigurationList = 4F94A12A15E2BC2800ECA24C /* Build configuration list for PBXProject "DataStructuresAndAlgorithms" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4F94A12515E2BC2800ECA24C;
+			productRefGroup = 4F94A13115E2BC2800ECA24C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F94A12F15E2BC2800ECA24C /* DataStructuresAndAlgorithms */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F94A12C15E2BC2800ECA24C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F94A13815E2BC2800ECA24C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4F94A13D15E2BC2800ECA24C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4F94A13E15E2BC2800ECA24C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4F94A14015E2BC2800ECA24C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DataStructuresAndAlgorithms/DataStructuresAndAlgorithms-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4F94A14115E2BC2800ECA24C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DataStructuresAndAlgorithms/DataStructuresAndAlgorithms-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F94A12A15E2BC2800ECA24C /* Build configuration list for PBXProject "DataStructuresAndAlgorithms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F94A13D15E2BC2800ECA24C /* Debug */,
+				4F94A13E15E2BC2800ECA24C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F94A13F15E2BC2800ECA24C /* Build configuration list for PBXNativeTarget "DataStructuresAndAlgorithms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F94A14015E2BC2800ECA24C /* Debug */,
+				4F94A14115E2BC2800ECA24C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F94A12715E2BC2800ECA24C /* Project object */;
+}
