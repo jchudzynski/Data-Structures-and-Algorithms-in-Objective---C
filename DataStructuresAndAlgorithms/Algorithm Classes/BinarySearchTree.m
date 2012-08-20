@@ -9,11 +9,10 @@
 #import "BinarySearchTree.h"
 #import "BinarySearchNode.h"
 @implementation BinarySearchTree
-@synthesize root;
-//Basic Operations
+@synthesize root, currentNode;
+
 
 -(BinarySearchNode *)find:(BinarySearchNode *)node forRoot:(BinarySearchNode * )_root{
-        
     BinarySearchNode * temp;
     if(_root==NULL)
     {
@@ -34,6 +33,9 @@
         else{
             [self find: node forRoot:_root.right];
             NSLog(@" RIGHT");
+            
+            _root.right = node;
+            
         }
     }
     return temp;
@@ -52,17 +54,21 @@
     if(_root == NULL)
     {
         _root = node;
-         NSLog(@"ROOT is Null - > Inserting!");
+         NSLog(@"ROOT is Null - > Inserting! %@ ",node);
     }
     else{
         //Check if it is bigger or smaller than root
         if(node.data < _root.data ) // Go to the left
         {
-            [self insertNode:node forRoot:_root.left];
+            self.currentNode = _root.left;
+            [self insertNode:node forRoot:currentNode];
              NSLog(@"----<<<<<<");
         }
         else if(node.data >_root.data) {
-            [self insertNode:node forRoot:_root.right];
+            self.currentNode = _root.right;
+            _root.right = node;
+            [self insertNode:node forRoot:currentNode];
+            
             NSLog(@">>>>>>------");
         }
         else{
@@ -80,6 +86,7 @@
 -(void)addData:(int)data{
     BinarySearchNode * node = [[BinarySearchNode alloc]init];
     node.data = data;
+    NSLog(@"Root of the Add Data is %@",self.root);
     [self insertNode:node forRoot:self.root];
 }
 
@@ -92,6 +99,7 @@
 -(void) findAll:(BinarySearchNode *)_root{
     if(_root){
         NSLog(@"Node %d ",_root.data);
+        //currentNode =
         [self findAll:_root.left];
         [self findAll:_root.right];
     }

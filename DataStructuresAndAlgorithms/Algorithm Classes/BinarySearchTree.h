@@ -11,6 +11,7 @@
 
 @interface BinarySearchTree : NSObject
 @property(nonatomic, strong)BinarySearchNode * root;
+@property(nonatomic, strong)BinarySearchNode * currentNode;
 
 -(BinarySearchNode *)find:(BinarySearchNode *)node forRoot:(BinarySearchNode * )_root;
 -(void)insertNode:(BinarySearchNode *)node forRoot:(BinarySearchNode *)_root;
