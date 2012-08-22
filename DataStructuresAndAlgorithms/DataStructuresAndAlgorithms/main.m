@@ -10,6 +10,10 @@
 #import "BinarySearchTree.h"
 #import "BinarySearchNode.h"
 #import "InsertionSort.h"
+#import "SelectionSort.h"
+#import "BubbleSort.h"
+
+
 int main(int argc, const char * argv[])
 {
 
@@ -24,8 +28,12 @@ int main(int argc, const char * argv[])
         //Testing Sorting
     */
         
-        InsertionSort * is = [[InsertionSort alloc]init];
-        
+       // InsertionSort * is = [[InsertionSort alloc]init];
+       // is=is;
+//        SelectionSort * ss =[[SelectionSort alloc]initWithElements:100];
+//        ss=ss;
+        BubbleSort * bs = [[BubbleSort alloc]initWithElements:10];
+        [bs runAlgorithm];
         
     
     }

@@ -1,5 +1,5 @@
 //
-//  SelectionSort.h
+//  BubbleSort.h
 //  DataStructuresAndAlgorithms
 //
 //  Created by Janusz Chudzynski on 8/22/12.
@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-@interface SelectionSort : NSObject
+@interface BubbleSort : NSObject
+{
+ int N;
+}
+-(void) runAlgorithm;
 -(id) initWithElements:(int) N;
 @end
