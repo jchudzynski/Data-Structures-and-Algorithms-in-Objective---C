@@ -9,12 +9,14 @@
 #import <Foundation/Foundation.h>
 @class BinarySearchNode;
 
-@interface BinarySearchTree : NSObject
+@interface BinarySearchTree : NSObject{
+    BinarySearchNode * root;
+
+}
 @property(nonatomic, strong)BinarySearchNode * root;
-@property(nonatomic, strong)BinarySearchNode * currentNode;
 
 -(BinarySearchNode *)find:(BinarySearchNode *)node forRoot:(BinarySearchNode * )_root;
--(void)insertNode:(BinarySearchNode *)node forRoot:(BinarySearchNode *)_root;
+-(void)insertNode:(BinarySearchNode *)node forRoot:(BinarySearchNode *__autoreleasing *)_root;
 -(void)deleteNode:(BinarySearchNode *)node forRoot:(BinarySearchNode *)_root;
 
 -(void)addData:(int)data;

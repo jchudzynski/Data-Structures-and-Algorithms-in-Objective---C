@@ -12,6 +12,8 @@
 		4F94A13C15E2BC2800ECA24C /* DataStructuresAndAlgorithms.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4F94A13B15E2BC2800ECA24C /* DataStructuresAndAlgorithms.1 */; };
 		4F94A14815E2BDFF00ECA24C /* BinarySearchTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F94A14715E2BDFF00ECA24C /* BinarySearchTree.m */; };
 		4F94A14C15E2BE3700ECA24C /* BinarySearchNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F94A14B15E2BE3700ECA24C /* BinarySearchNode.m */; };
+		4F94A1B715E5614C00ECA24C /* InsertionSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F94A1B615E5614C00ECA24C /* InsertionSort.m */; };
+		4F94A1BB15E5730600ECA24C /* SelectionSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F94A1BA15E5730600ECA24C /* SelectionSort.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +39,10 @@
 		4F94A14715E2BDFF00ECA24C /* BinarySearchTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BinarySearchTree.m; path = "Algorithm Classes/BinarySearchTree.m"; sourceTree = "<group>"; };
 		4F94A14A15E2BE3700ECA24C /* BinarySearchNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BinarySearchNode.h; path = "Algorithm Classes/BinarySearchNode.h"; sourceTree = "<group>"; };
 		4F94A14B15E2BE3700ECA24C /* BinarySearchNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BinarySearchNode.m; path = "Algorithm Classes/BinarySearchNode.m"; sourceTree = "<group>"; };
+		4F94A1B515E5614C00ECA24C /* InsertionSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InsertionSort.h; path = "Algorithm Classes/InsertionSort.h"; sourceTree = SOURCE_ROOT; };
+		4F94A1B615E5614C00ECA24C /* InsertionSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InsertionSort.m; path = "Algorithm Classes/InsertionSort.m"; sourceTree = SOURCE_ROOT; };
+		4F94A1B915E5730600ECA24C /* SelectionSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SelectionSort.h; path = "Algorithm Classes/SelectionSort.h"; sourceTree = SOURCE_ROOT; };
+		4F94A1BA15E5730600ECA24C /* SelectionSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SelectionSort.m; path = "Algorithm Classes/SelectionSort.m"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,10 @@
 			isa = PBXGroup;
 			children = (
 				4F94A13715E2BC2800ECA24C /* main.m */,
+				4F94A1B515E5614C00ECA24C /* InsertionSort.h */,
+				4F94A1B615E5614C00ECA24C /* InsertionSort.m */,
+				4F94A1B915E5730600ECA24C /* SelectionSort.h */,
+				4F94A1BA15E5730600ECA24C /* SelectionSort.m */,
 				4F94A13B15E2BC2800ECA24C /* DataStructuresAndAlgorithms.1 */,
 				4F94A13915E2BC2800ECA24C /* Supporting Files */,
 			);
@@ -160,6 +170,8 @@
 				4F94A13815E2BC2800ECA24C /* main.m in Sources */,
 				4F94A14815E2BDFF00ECA24C /* BinarySearchTree.m in Sources */,
 				4F94A14C15E2BE3700ECA24C /* BinarySearchNode.m in Sources */,
+				4F94A1B715E5614C00ECA24C /* InsertionSort.m in Sources */,
+				4F94A1BB15E5730600ECA24C /* SelectionSort.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
